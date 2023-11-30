@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz App</title>
+</head>
+<body>
+    <h1>Quiz App</h1>
+    <div id="question-container">
+        <p id="question">Question goes here</p>
+        <ul id="options">
+            <li class="option">
+                <input type="checkbox" id="option1" name="option" value="Option 1">
+                <label for="option1">Option 1</label>
+            </li>
+            <li class="option">
+                <input type="checkbox" id="option2" name="option" value="Option 2">
+                <label for="option2">Option 2</label>
+            </li>
+            <li class="option">
+                <input type="checkbox" id="option3" name="option" value="Option 3">
+                <label for="option3">Option 3</label>
+            </li>
+            <li class="option">
+                <input type="checkbox" id="option4" name="option" value="Option 4">
+                <label for="option4">Option 4</label>
+            </li>
+        </ul>
+    </div>
+    <p id="score-display">Score: <span id="score"></span></p>
+    <button id="prev-button" disabled>Prev</button>
+    <button id="next-button">Next</button>
+    <button id="submit-button">Submit</button>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
